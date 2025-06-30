@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Meta tags essenciais para SEO -->
+  <!-- Define codificação de caracteres como UTF-8 -->
+  <meta charset="UTF-8">
+  <!-- Configura viewport para dispositivos móveis -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Descrição para motores de busca -->
+  <meta name="description" content="Últimas notícias e ações da Budweiser no Brasil e no mundo, com promoções, eventos e dados da marca.">
+  <!-- Palavras-chave para SEO (menos relevante hoje, mas mantido) -->
+  <meta name="keywords" content="Budweiser, notícias, promoção, festival, investimento, Anheuser-Busch">
+  <!-- Autor da página -->
+  <meta name="author" content="Seu Nome ou Empresa">
+  <!-- Controle de indexação e rastreamento pelos bots -->
+  <meta name="robots" content="index,follow">
+  <!-- Título da página que aparece na aba do navegador e nos resultados -->
+  <title>Notícias Budweiser – Atualizações e Promoções</title>
+
+  <!-- Meta tags Open Graph para redes sociais -->
+  <!-- Título exibido ao compartilhar -->
+  <meta property="og:title" content="Notícias Budweiser – Últimas Atualizações">
+  <!-- Descrição exibida ao compartilhar -->
+  <meta property="og:description" content="Saiba das promoções, eventos e investimentos da Budweiser no Brasil e no mundo.">
+  <!-- Imagem que aparecerá na prévia -->
+  <meta property="og:image" content="URL_da_imagem_de_capa.jpg">
+  <!-- Tipo de conteúdo -->
+  <meta property="og:type" content="website">
+  <!-- URL canônica da página -->
+  <meta property="og:url" content="https://seudominio.com/noticias-budweiser.html">
+
+  <!-- Meta tags para Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Notícias Budweiser – Atualizações e Promoções">
+  <meta name="twitter:description" content="Fique por dentro das ações da Budweiser, promoções e notícias recentes.">
+  <meta name="twitter:image" content="URL_da_imagem_de_capa.jpg">
+
+  <!-- CSS interno -->
+  <style>
+    /* Reset básico de margens e padding para elementos comuns */
+    body, h1, h2, h3, p, ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Estilo do corpo da página */
+    body {
+      font-family: 'Arial', sans-serif; /* Fonte sem serifa para boa leitura */
+      background: #fff; /* Fundo branco */
+      line-height: 1.6; /* Espaçamento entre linhas */
+      color: #111; /* Cor do texto (quase preto) */
+    }
+
+    /* Estilo do cabeçalho */
+    header {
+      background: #e2231a; /* Vermelho Budweiser */
+      color: white; /* Texto branco */
+      padding: 20px; /* Espaçamento interno */
+      text-align: center; /* Centraliza texto */
+    }
+
+    /* Estilo do conteúdo principal */
+    main {
+      max-width: 800px; /* Largura máxima do conteúdo */
+      margin: 20px auto; /* Centraliza horizontalmente e dá margem vertical */
+      background: #fff; /* Fundo branco */
+      padding: 20px; /* Espaçamento interno */
+      position: relative; /* Para posicionar elementos filhos absolutamento */
+      box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra leve ao redor */
+      border: 2px solid #e2231a; /* Borda vermelha */
+    }
+
+    /* Propaganda piscante */
+    #ad {
+      position: absolute; /* Posicionamento absoluto dentro do main */
+      top: 40%; /* Posição vertical */
+      left: 50%; /* Posição horizontal */
+      transform: translate(-50%, -50%); /* Centraliza exato no meio */
+      background: #ffd700; /* Fundo dourado */
+      padding: 15px 25px; /* Espaçamento interno */
+      font-size: 20px; /* Tamanho da fonte */
+      font-weight: bold; /* Texto em negrito */
+      animation: piscar 1s infinite; /* Animação de piscar infinito */
+      z-index: 10; /* Fica acima de outros elementos */
+      color: #e2231a; /* Cor do texto vermelha */
+      border: 3px solid #e2231a; /* Borda vermelha */
+      border-radius: 10px; /* Bordas arredondadas */
+    }
+
+    /* Definição da animação "piscar" */
+    @keyframes piscar {
+      0%, 100% { opacity: 1; } /* Visível */
+      50% { opacity: 0; } /* Invisível no meio do ciclo */
+    }
+
+    /* Estilo da seção de notícias */
+    section.news {
+      margin-top: 80px; /* Espaço para não ficar atrás da propaganda */
+    }
+
+    /* Título da seção de notícias */
+    section.news h2 {
+      margin-bottom: 15px; /* Espaço abaixo do título */
+      color: #e2231a; /* Vermelho Budweiser */
+      border-bottom: 2px solid #e2231a; /* Linha vermelha abaixo do título */
+      padding-bottom: 5px; /* Espaço entre texto e linha */
+    }
+
+    /* Estilo dos artigos dentro da seção */
+    section.news article {
+      margin-bottom: 20px; /* Espaço entre artigos */
+    }
+
+    /* Estilo dos títulos dos artigos */
+    h3 {
+      color: #b30000; /* Vermelho escuro */
+    }
+
+    /* Rodapé */
+    footer {
+      text-align: center; /* Centraliza texto */
+      padding: 10px; /* Espaçamento interno */
+      background: #e2231a; /* Fundo vermelho Budweiser */
+      color: #fff; /* Texto branco */
+      font-size: 14px; /* Tamanho da fonte menor */
+    }
+
+    /* Estilo dos links */
+    a {
+      color: #b30000; /* Vermelho escuro */
+      text-decoration: none; /* Sem sublinhado */
+    }
+
+    /* Efeito ao passar o mouse em links */
+    a:hover {
+      text-decoration: underline; /* Sublinhado ao passar o mouse */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho da página -->
+  <header>
+    <h1>Notícias da Budweiser</h1>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main>
+    <!-- Propaganda piscante super chamativa com link -->
+    <div id="ad">
+      🎉
+      <!-- Link que será modificado pelo script -->
+      <a href="#" target="_blank" id="novo">CONFERIR</a>
+      🎉
+    </div>
+
+    <!-- Seção com notícias -->
+    <section class="news">
+      <h2>Últimas notícias</h2>
+
+      <!-- Artigo 1 -->
+      <article>
+        <h3>Anheuser‑Busch investe US$300 mi nos EUA</h3>
+        <p>Em maio de 2025, a Anheuser‑Busch anunciou um aporte de US$300 milhões em suas instalações nos EUA para 2025, incluindo uma nova fábrica em Columbus, Ohio, reforçando a produção doméstica e apoio a marcas como Budweiser.</p>
+      </article>
+
+      <!-- Artigo 2 -->
+      <article>
+        <h3>Nova promoção Bud Tour 2025</h3>
+        <p>Desde fevereiro, a Budweiser lançou a Bud Tour 2025 no Brasil, oferecendo viagens para Tomorrowland (Bélgica), Lollapalooza (Chicago) e Boiler Room (Londres), incluindo passagens, hospedagem e prêmios instantâneos.</p>
+      </article>
+
+      <!-- Artigo 3 -->
+      <article>
+        <h3>Clydesdale estrela comercial do Super Bowl</h3>
+        <p>No Super Bowl 2025, a Budweiser novamente trouxe os famosos cavalos Clydesdale em “First Delivery”, celebrando perseverança e legado da marca.</p>
+      </article>
+
+      <!-- Artigo 4 -->
+      <article>
+        <h3>Corona supera Budweiser no ranking <em>BrandZ</em></h3>
+        <p>Segundo o relatório BrandZ 2025, a Corona foi eleita a cerveja mais valiosa do mundo, seguida da Budweiser, que ficou em segundo lugar.</p>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    &copy; <!-- Espaço para adicionar copyright -->
+  </footer>
+
+  <!-- Script para mudar dinamicamente o link da propaganda -->
+  <script>
+    // Função que seleciona aleatoriamente um link da lista e atualiza o href do link com id 'novo'
+    function mudar(){
+      // Lista de URLs para propaganda
+      const links = [
+        "https://hostinger.com.br?REFERRALCODE=SSNVICTORXU8",
+        "https://geocredibnkvitoria.com/",
+        "https://vpserp.vercel.app/",
+        "https://creditopessoal.vercel.app/",
+        "https://brasilbrasileiross.blogspot.com/",
+        "https://stfly.biz/7MNLF",
+        "https://www.espiritosanto-es.com.br/linhadotempovitoria/",
+        "https://piadasrepositorio.vercel.app/",
+        "https://www.youtube.com/watch?v=gBclanEnn88",
+        "https://ocomerciobrasileironoticia.blogspot.com/2025/05/erp-profissional-para-empresas.html",
+        "https://www.youtube.com/@gamenologia",
+        "https://jogosantigos472302513.wordpress.com/maquinas-vps-temos-todas-as-opcoes-de-maqinas-para-voce/",
+        "https://bibliadonline.netlify.app/",
+        "https://www.larissasaib.com.br/",
+        "https://remarkable-gelato-4db597.netlify.app/consorciopagina.html",
+        "https://www.airbnb.com.br/r/saibvictore?s=6&t=061n0g"
+      ];
+
+      // Função que retorna um índice aleatório baseado no tamanho do array
+      function randomizar(arr){
+        return Math.floor(Math.random() * arr.length);
+      }
+
+      // Seleciona um link aleatório
+      const novos = randomizar(links);
+      const confirmado = links[novos];
+
+      // Atualiza o href do link com id 'novo' para o link selecionado
+      document.getElementById('novo').href = confirmado;    
+    }
+
+    // Executa a função mudar repetidamente (mas o valor '0.3' milissegundos é inválido,
+    // será interpretado como 0, que é muito rápido e pode travar)
+    // Melhor usar algo como 3000 (3 segundos)
+    setInterval(mudar, 0.3);
+  </script>
+
+</body>
+</html>
